@@ -74,9 +74,6 @@ function openModal(pokemonId) {
     let msg = details(pokemonId);
     menuInfo.innerHTML = msg;
 
-    //Esconde a barra de rolagem do corpo da página
-    let content = document.querySelector('body');
-    content.style.overflowY  = 'hidden';
 }
 
 //Função fechar botão mensagem de alerta do favorito
